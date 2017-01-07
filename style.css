@@ -50,7 +50,7 @@ a {
     color: #004970;
 }
 .section-3 .content {
-    font-size: 24px;
+    font-size: 20px;
     display: inline-table;
     height: 300px;
     width: 40%;
@@ -62,14 +62,14 @@ a {
 }
 .section-3 .content:before {
     content: "";
-    display: inline-table;
+    display: inline-block;
     height: 100%;
     vertical-align: middle;
 }
 .section-3 .content .text-middle {
     display: inline-block;
     vertical-align: middle;
-    line-height: 50px;
+    line-height: 40px;
     color: #282c2e;
 }
 .section-3 .content .highlight{
