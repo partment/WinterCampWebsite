@@ -1,0 +1,158 @@
+@charset "UTF-8";
+@import url(https://fonts.googleapis.com/earlyaccess/notosanstc.css);
+body {
+    margin: 0;
+    font-family:'Noto Sans TC',sans-serif;
+    user-select: none;
+    -moz-user-select :none;
+    -webkit-user-select :none;
+    cursor: default;
+}
+h1 {
+    font-size: 40px;
+}
+a {
+    color: blue;
+    text-decoration: none;
+}
+#main {
+    text-align: center;
+}
+.section-1 h1 {
+    color: #661015;
+}
+.section-1 img {
+    max-width: 300px;
+}
+.section-1 h1 {
+    color: #661015;
+}
+.section-1 h1 {
+    color: #661015;
+}
+.section-1 h1 {
+    color: #661015;
+}
+.section-2 h1 {
+    color: #004970;
+    position: absolute;
+    width: 100%;
+}
+.section-2 h2 {
+    padding: 0 10% 0 10%;
+    color: #00263a;
+}
+.section-2 h3 {
+    padding: 0 10% 0 10%;
+    color: lightyellow;
+}
+.section-3 h1 {
+    color: #004970;
+}
+.section-3 .content {
+    font-size: 24px;
+    display: inline-table;
+    height: 300px;
+    width: 40%;
+    max-width: 600px;
+    margin: 0 10px 10px 10px;
+    padding: 10px;
+    background: #23dc99;
+    border-radius: 10px;
+}
+.section-3 .content:before {
+    content: "";
+    display: inline-table;
+    height: 100%;
+    vertical-align: middle;
+}
+.section-3 .content .text-middle {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 50px;
+    color: #282c2e;
+}
+.section-3 .content .highlight{
+    color: #006192;
+}
+.section-4 h1 {
+    color: #004970;
+    width: 100%;
+}
+.section-4 h3 {
+    position: relative;
+    left: 50%;
+    margin-left: -400px;
+    width: 800px;
+    color: lightyellow;
+    line-height: 50px;
+}
+.section-5 h1 {
+    color: #5a0f62;
+}
+.section-5 h2 {
+    color: #1f3c4b;
+}
+.section-5 .wrapper {
+    width: 800px;
+    position: relative;
+    left: 50%;
+    margin-left: -400px;
+}
+.section-5 .wrapper .method {
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+    background: #913556;
+    margin: 0 0 10px 0;
+    float: left;
+    border-radius: 15px;
+}
+.section-5 .wrapper .method:before {
+    content: "";
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+.section-5 .wrapper .method .text-middle {
+    display: inline-block;
+    vertical-align: middle;
+    color: aliceblue;
+    font-size: 60px; 
+}
+.section-5 .wrapper .description {
+    display: inline-block;
+    margin: 0 0 10px 0;
+    width: 450px;
+    height: 260px;
+    float: right;
+    text-align: left;
+    padding: 20px;
+    background: #e6fce4;
+    border-radius: 15px;
+}
+.section-6 h1 {
+    color: #522726;
+    position: absolute;
+    width: 100%;
+}
+.section-6 img {
+    max-width: 860px;
+    max-height: 70%;
+}
+.section-7 h1 {
+    color: #e1ee68;
+}
+.section-7 h2 {
+    color: #f7fbd9;
+}
+.designer {
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    z-index: 9999;
+    padding: 5px;
+    background: white;
+    color: #465b4f;
+    border-radius: 5px;
+}
